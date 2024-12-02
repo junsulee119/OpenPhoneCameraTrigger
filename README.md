@@ -18,7 +18,7 @@ OpenPhoneCameraTrigger is a project designed to enable wireless control of camer
 
 ---
 
-## Features
+## Features (WIP)
 - Wireless phone camera trigger via Bluetooth.
 - Compact and portable design.
 - Easy to customize and extend functionality.
@@ -70,14 +70,14 @@ Follow these steps to set up your development environment:
 
 ---
 
-### 4. Wiring and Connection Diagram
+### 4. Wiring and Connection Diagram (WIP)
 Below is the connection diagram for the project:
 
 *(Include a clear and labeled diagram showing button connections to the ESP32 GPIOs and power.)*
 
 ---
 
-### 5. 3D Printing and Assembling the Enclosure
+### 5. 3D Printing and Assembling the Enclosure (WIP)
 1. Print the provided `.stl` files using a 3D printer.
 2. Gather additional assembly parts (e.g., screws, adhesives).
 3. Follow the instructions to fit the ESP32 module and buttons into the enclosure.
