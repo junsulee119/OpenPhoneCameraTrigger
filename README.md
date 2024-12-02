@@ -14,7 +14,7 @@
 6. [License](#license)
 
 ## Introduction
-OpenPhoneCameraTrigger is a project designed to enable wireless control of camera trigger using an ESP32 based board. With this project, you can send volume control signals to trigger your camera's shutter remotely.
+OpenPhoneCameraTrigger is a project designed to enable wireless control of camera trigger using an ESP32 based board. With this project, you can send volume control signals to trigger your phone camera's shutter remotely.
 
 ---
 
