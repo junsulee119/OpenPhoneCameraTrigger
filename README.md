@@ -28,7 +28,7 @@ OpenPhoneCameraTrigger is a project designed to enable wireless control of camer
 
 ---
 
-## How to Build Your Own OpenPhoneCameraTrigger
+## How to Build Your Own OpenPhoneCameraTrigger (WIP)
 
 ### 1. Required Components
 Here is a list of components you'll need to build this project:
@@ -73,7 +73,7 @@ Follow these steps to set up your development environment:
 ### 4. Wiring and Connection Diagram (WIP)
 Below is the connection diagram for the project:
 
-*(Include a clear and labeled diagram showing button connections to the ESP32 GPIOs and power.)*
+*(Include a clear and labeled diagram showing button connections to the ESP32 GPIOs and power. + warning with battery handling)*
 
 ---
 
