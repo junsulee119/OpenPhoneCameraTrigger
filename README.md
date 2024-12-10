@@ -105,9 +105,10 @@ Below is the connection diagram for the project:
 - 전원 인가시 무조건 BLE advertizing가 아닌 버튼이 꾹 눌리면 페어링모드 (advertizing mode)로 진입하는 것으로 개선 (BLE advertizing은 배터리 소모 높음 → 배터리시간 개선, 전원 인가시 무조건 advertizing mode로 진입하는 것이 아닌 사용자 조작을 통해 사용자의 통제 범위 증가)
 - 더 비싼 배터리 충전 / 방전 보드로 idle 상태에서 발생하는 battery drain 양 최소화
 - 버튼이 눌린 시간 측정하여 버튼 꾹 누르면 영상촬영(각 휴대폰의 음량버튼 꾹 누름 설정) 기능 추가
+- 적절한 저항과 납땜장비가 없어 충전보드의 충전전류가 배터리 용량에 비해 과도하게 높은 점 개선
 
 ## License
-This project is licensed under the **GNU AGPL v3.0** for the code. 
+The code for this project is licensed under the **GNU AGPL v3.0**. 
 
 The 3D enclosure files are licensed under **CC BY-NC-SA 4.0**.
 
