@@ -79,7 +79,7 @@ Below is the connection diagram for the project:
 
 ![Pin wiring diagram](img/pin%20wiring%20diagram.png)
 
-> [!WARNING] 
+> [!CAUTION] 
 > While handling battery, always solder in a well-ventilated area, wear protective gear, and handle components with care to avoid burns or shorts. Use the correct temperature and soldering techniques, and never leave the iron unattended. When handling batteries, avoid short circuits, punctures, or heat exposure. Store and dispose of batteries properly, and always use the correct charger for safe operation
 
 ---
