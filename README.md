@@ -13,18 +13,18 @@
 5. [Future improvement](#future-improvement)
 6. [License](#license)
 
-## Introduction
+## Introduction (WIP)
 OpenPhoneCameraTrigger is a project designed to enable wireless control of camera trigger using an ESP32 based board. With this project, you can send volume control signals to trigger your phone camera's shutter remotely.
+
+*(Add youtube link of demonstration video)*
 
 ---
 
-## Features (WIP)
+## Features
 - Wireless phone camera trigger via Bluetooth.
 - Compact and portable design.
 - Easy to customize and extend functionality.
 - Open-source code and 3D-printable enclosure.
-
-*(Add images and descriptions showcasing the device and its use cases.)*
 
 ---
 
@@ -34,7 +34,7 @@ OpenPhoneCameraTrigger is a project designed to enable wireless control of camer
 Here is a list of components you'll need to build this project:
 - **ESP32-C3 Super Mini**  – [Link](https://a.aliexpress.com/_oErgR53)
 - **Push button** – [Link](https://a.aliexpress.com/_olNm9Id)
-- 3.7V 300mAh 602030 LiPo **Battery** – [Link](https://a.aliexpress.com/_omasVAl)
+- **3.7V** 300mAh 602030 LiPo **Battery** – [Link](https://a.aliexpress.com/_omasVAl)
 - TP4057 **Battery Charger Board** – [Link](https://a.aliexpress.com/_onq9YhJ)
 - Dupont cable or jumper wire
 
@@ -74,15 +74,13 @@ Follow these steps to set up your development environment:
 
 ---
 
-### 4. Wiring and Connection Diagram (WIP)
+### 4. Wiring and Connection Diagram
 Below is the connection diagram for the project:
 
 ![Pin wiring diagram](img/pin%20wiring%20diagram.png)
 
 > [!WARNING] 
-> While handling battery, always solder in a well-ventilated area, wear protective gear, and handle components with care to avoid burns or shorts. Use the correct temperature and soldering techniques, and never leave the iron unattended. When handling batteries, avoid short circuits, punctures, or heat exposure. Store and dispose of batteries properly, and always use the correct charger for safe operation 
-
-*(Include a clear and labeled diagram showing button connections to the ESP32 GPIOs and power. + warning with battery handling)*
+> While handling battery, always solder in a well-ventilated area, wear protective gear, and handle components with care to avoid burns or shorts. Use the correct temperature and soldering techniques, and never leave the iron unattended. When handling batteries, avoid short circuits, punctures, or heat exposure. Store and dispose of batteries properly, and always use the correct charger for safe operation
 
 ---
 
@@ -95,7 +93,7 @@ Below is the connection diagram for the project:
 
 ---
 
-## Version History
+## Code Version History
 | Version | Release Date | Change Log                        |
 |---------|--------------|-----------------------------------|
 | 1.0.0   | 2024-12-02   | Initial release.                  |
