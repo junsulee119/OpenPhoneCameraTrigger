@@ -33,19 +33,23 @@ OpenPhoneCameraTrigger is a project designed to enable wireless control of camer
 ### 1. Required Components
 Here is a list of components you'll need to build this project:
 - **ESP32-C3 Super Mini**  – [Link](https://a.aliexpress.com/_oErgR53)
-- **Push button** – [Link](#)
+- **Push button** – [Link](https://a.aliexpress.com/_olNm9Id)
 - 3.7V 300mAh 602030 LiPo **Battery** – [Link](https://a.aliexpress.com/_omasVAl)
-- TP4056 **Battery Charger Board** – [Link](#)
-- 3D-printed enclosure (stl files in [stl](#))
+- TP4057 **Battery Charger Board** – [Link](https://a.aliexpress.com/_onq9YhJ)
 - Dupont cable or jumper wire
 
 Other
 - USB type-C cable to connect esp32 with pc
 - PC or Laptop etc.. for coding and debugging
 
+To build enclosure
+- 3D-printed enclosure (stl files in [stl](#))
+- M2.5 OD4mm 5mm long Threaded insert * 2 [Link](https://a.aliexpress.com/_oCb7Maz)
+- M2.5 6mm long bolt [Link](https://a.aliexpress.com/_olOMYyt)
+
 ---
 
-### 2. Setting Up the Development Environment
+### 2. Setting Up the Development Environment for ESP32
 Follow these steps to set up your development environment:
 1. Install Arduino IDE (Tested on version 2.3.3)
 2. Add the ESP32 board package to the IDE (Tested on version 3.1.0-RC3)
@@ -72,6 +76,11 @@ Follow these steps to set up your development environment:
 
 ### 4. Wiring and Connection Diagram (WIP)
 Below is the connection diagram for the project:
+
+![Pin wiring diagram](img/pin%20wiring%20diagram.png)
+
+> [!WARNING] 
+> While handling battery, always solder in a well-ventilated area, wear protective gear, and handle components with care to avoid burns or shorts. Use the correct temperature and soldering techniques, and never leave the iron unattended. When handling batteries, avoid short circuits, punctures, or heat exposure. Store and dispose of batteries properly, and always use the correct charger for safe operation 
 
 *(Include a clear and labeled diagram showing button connections to the ESP32 GPIOs and power. + warning with battery handling)*
 
