@@ -13,10 +13,10 @@
 5. [Future improvement](#future-improvement)
 6. [License](#license)
 
-## Introduction (WIP)
+## Introduction
 OpenPhoneCameraTrigger is a project designed to enable wireless control of camera trigger using an ESP32 based board. With this project, you can send volume control signals to trigger your phone camera's shutter remotely.
 
-*(Add youtube link of demonstration video)*
+[![demoVideo](https://img.youtube.com/vi/Z1O2nStRBFU/0.jpg)](https://www.youtube.com/watch?v=Z1O2nStRBFU)
 
 ---
 
@@ -124,6 +124,8 @@ Below is the connection diagram for the project:
 - 더 비싼 배터리 충전 / 방전 보드로 idle 상태에서 발생하는 battery drain 양 최소화 혹은 배터리와 배터리 충전 / 방전 보드 사이에 스위치 추가하여 수동으로 키고 끌 수 있게 개선
 - 버튼이 눌린 시간 측정하여 버튼 꾹 누르면 영상촬영(각 휴대폰의 음량버튼 꾹 누름 설정) 기능 추가
 - 적절한 저항과 납땜장비가 없어 충전보드의 충전전류가 배터리 용량에 비해 과도하게 높은 점 개선
+- 충전 LED 정보 외부로 나타나게 개선
+- 부품 단차 고려해서 모델 재설계
 
 ## License
 The code for this project is licensed under the **GNU AGPL v3.0**. 
