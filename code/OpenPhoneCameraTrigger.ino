@@ -1,6 +1,7 @@
 
 //SPDX-FileCopyrightText: © 2024 Junsu Lee <junsulee119@gmail.com>
 //SPDX-License-Identifier: GNU Affero General Public License v3.0
+//Version 1.0.0
 
 #include <BLEDevice.h>
 #include <BLEServer.h>
