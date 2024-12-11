@@ -28,7 +28,7 @@ OpenPhoneCameraTrigger is a project designed to enable wireless control of camer
 
 ---
 
-## How to Build Your Own OpenPhoneCameraTrigger (WIP)
+## How to Build Your Own OpenPhoneCameraTrigger
 
 ### 1. Required Components
 Here is a list of components you'll need to build this project:
@@ -43,7 +43,7 @@ Other
 - PC or Laptop etc.. for coding and debugging
 
 To build enclosure
-- 3D-printed enclosure (stl files in [stl](#))
+- 3D-printed enclosure (stl files in [stl](https://github.com/junsulee119/OpenPhoneCameraTrigger/tree/main/stl))
 - M2.5 OD4mm 5mm long Threaded insert * 2 [Link](https://a.aliexpress.com/_oCb7Maz)
 - M2.5 6mm long bolt [Link](https://a.aliexpress.com/_olOMYyt)
 
@@ -57,7 +57,7 @@ Follow these steps to set up your development environment:
     2. Serch **'esp32'**
     3. Install **'esp32 by Espressif Systems'**
 3. Connect ESP32 to PC and select proper COM port
-    1. Connect ESP32 Super Mini board to PC using USB Type-C cable (make sure that the USB cable supports data trasnmission)
+    1. Connect ESP32 Super Mini board to PC using USB Type-C cable (make sure that the USB cable supports data transmission)
     2. Go to **Tools > Port** and **select proper COM port** that ESP32 is connected at
 4. Select ESP32 SuperMini board
     1. Go to **Tools > Board > esp32**
@@ -75,21 +75,39 @@ Follow these steps to set up your development environment:
 ---
 
 ### 4. Wiring and Connection Diagram
+
+>[!TIP]
+> Print the enclosure first and then measure the required length for each wire. Otherwise, the enclosure might not fit
+
+![making0](img/making/0.jpeg)
+
 Below is the connection diagram for the project:
 
 ![Pin wiring diagram](img/pin%20wiring%20diagram.png)
 
 > [!CAUTION] 
-> While handling battery, always solder in a well-ventilated area, wear protective gear, and handle components with care to avoid burns or shorts. Use the correct temperature and soldering techniques, and never leave the iron unattended. When handling batteries, avoid short circuits, punctures, or heat exposure. Store and dispose of batteries properly, and always use the correct charger for safe operation
+> While handling batteries, always solder in a well-ventilated area, wear protective gear, and handle components with care to avoid burns or shorts. Use the correct temperature and soldering techniques, and never leave the iron unattended. When handling batteries, avoid short circuits, punctures, or heat exposure. Store and dispose of batteries properly, and always use the correct charger for safe operation
 
 ---
 
-### 5. 3D Printing and Assembling the Enclosure (WIP)
+### 5. 3D Printing and Assembling the Enclosure
 1. Print the provided `.stl` files using a 3D printer.
-2. Gather additional assembly parts (e.g., screws, adhesives).
-3. Follow the instructions to fit the ESP32 module and buttons into the enclosure.
+2. Gather additional assembly parts.
+![making1](img/making/1.jpeg)
 
-*(Include an assembly guide with images or diagrams.)*
+3. Insert each PCB part into the corresponding position.
+![making2](img/making/2.jpeg)
+
+4. Insert threaded inserts using soldering iron.
+![making3](img/making/3.jpeg)
+![making4](img/making/4.jpeg)
+
+5. Assemble top and bottom parts. Be careful not to get any wire stuck between two parts.
+![making5](img/making/5.jpeg)
+
+6. Done!
+![making6](img/making/6.jpeg)
+
 
 ---
 
@@ -103,7 +121,7 @@ Below is the connection diagram for the project:
 ## Future improvement
 - 일정 시간 이상 input 이 없을 경우 idle 상태(deep sleep mode) 전환으로 배터리 사용시간 개선
 - 전원 인가시 무조건 BLE advertizing가 아닌 버튼이 꾹 눌리면 페어링모드 (advertizing mode)로 진입하는 것으로 개선 (BLE advertizing은 배터리 소모 높음 → 배터리시간 개선, 전원 인가시 무조건 advertizing mode로 진입하는 것이 아닌 사용자 조작을 통해 사용자의 통제 범위 증가)
-- 더 비싼 배터리 충전 / 방전 보드로 idle 상태에서 발생하는 battery drain 양 최소화
+- 더 비싼 배터리 충전 / 방전 보드로 idle 상태에서 발생하는 battery drain 양 최소화 혹은 배터리와 배터리 충전 / 방전 보드 사이에 스위치 추가하여 수동으로 키고 끌 수 있게 개선
 - 버튼이 눌린 시간 측정하여 버튼 꾹 누르면 영상촬영(각 휴대폰의 음량버튼 꾹 누름 설정) 기능 추가
 - 적절한 저항과 납땜장비가 없어 충전보드의 충전전류가 배터리 용량에 비해 과도하게 높은 점 개선
 
@@ -112,4 +130,4 @@ The code for this project is licensed under the **GNU AGPL v3.0**.
 
 The 3D enclosure files are licensed under **CC BY-NC-SA 4.0**.
 
-For more details, see the `LICENSE` file under each directories or visit [GNU AGPL v3.0 License](https://www.gnu.org/licenses/agpl-3.0.html), [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+For more details, see the `LICENSE` file under each directory or visit [GNU AGPL v3.0 License](https://www.gnu.org/licenses/agpl-3.0.html), [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
