@@ -79,7 +79,7 @@ Follow these steps to set up your development environment:
 >[!TIP]
 > Print the enclosure first and then measure the required length for each wire. Otherwise, the enclosure might not fit
 
-![making0](img/making/0.jpeg)
+![making0](img/making/0.JPEG)
 
 Below is the connection diagram for the project:
 
@@ -93,20 +93,20 @@ Below is the connection diagram for the project:
 ### 5. 3D Printing and Assembling the Enclosure
 1. Print the provided `.stl` files using a 3D printer.
 2. Gather additional assembly parts.
-![making1](img/making/1.jpeg)
+![making1](img/making/1.JPEG)
 
 3. Insert each PCB part into the corresponding position.
-![making2](img/making/2.jpeg)
+![making2](img/making/2.JPEG)
 
 4. Insert threaded inserts using soldering iron.
-![making3](img/making/3.jpeg)
-![making4](img/making/4.jpeg)
+![making3](img/making/3.JPEG)
+![making4](img/making/4.JPEG)
 
 5. Assemble top and bottom parts. Be careful not to get any wire stuck between two parts.
-![making5](img/making/5.jpeg)
+![making5](img/making/5.JPEG)
 
 6. Done!
-![making6](img/making/6.jpeg)
+![making6](img/making/6.JPEG)
 
 
 ---
