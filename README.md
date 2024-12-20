@@ -123,6 +123,7 @@ Below is the connection diagram for the project:
 | Version | Release Date | Change Log                        |
 |---------|--------------|-----------------------------------|
 | 1.0.0   | 2024-12-02   | Initial release.                  |
+| 1.0.1   | 2024-12-20   | Design improvement considering part step difference |
 
 ---
 
@@ -134,7 +135,6 @@ Below is the connection diagram for the project:
 - 버튼이 눌린 시간 측정하여 버튼 꾹 누르면 영상촬영(각 휴대폰의 음량버튼 꾹 누름 설정) 기능 추가
 - 적절한 저항과 납땜장비가 없어 충전보드의 충전전류가 배터리 용량에 비해 과도하게 높은 점 개선
 - 충전 LED 정보 외부로 나타나게 개선
-- 부품 단차 고려해서 모델 재설계
 
 ## License
 The code for this project is licensed under the **GNU AGPL v3.0**. 
