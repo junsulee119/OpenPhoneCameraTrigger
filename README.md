@@ -9,7 +9,7 @@
     3. [Coding and Running](#coding-and-running)
     4. [Wiring and Connection Diagram](#wiring-and-connection-diagram)
     5. [3D Printing and Assembling the Enclosure](#3d-printing-and-assembling-the-enclosure)
-4. [Version History](#version-history)
+4. [Version History](#code-version-history)
 5. [Future improvement](#future-improvement)
 6. [License](#license)
 
@@ -118,6 +118,14 @@ Below is the connection diagram for the project:
 | 1.0.0   | 2024-12-02   | Initial release.                  |
 
 ---
+
+## 3D enclosure file Version History
+| Version | Release Date | Change Log                        |
+|---------|--------------|-----------------------------------|
+| 1.0.0   | 2024-12-02   | Initial release.                  |
+
+---
+
 
 ## Future improvement
 - 일정 시간 이상 input 이 없을 경우 idle 상태(deep sleep mode) 전환으로 배터리 사용시간 개선
