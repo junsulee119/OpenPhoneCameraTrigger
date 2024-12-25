@@ -129,7 +129,7 @@ Below is the connection diagram for the project:
 
 
 ## Future improvement
-- 일정 시간 이상 input 이 없을 경우 idle 상태(deep sleep mode) 전환으로 배터리 사용시간 개선 -> ESP32C3는 Deep-sleep mode 미지원
+- 일정 시간 이상 input 이 없을 경우 idle 상태(deep sleep mode) 전환으로 배터리 사용시간 개선 -> ESP32C3는 Deep-sleep mode 미지원 -> ESP32S3로 시도, Android폰에서 deep sleep이후 인식장애 발생(deep-sleep 으로 인한 BTLE연결정보 손실로 원인 추정) -> RTC메모리 사용하여 연결정보 보존
 - 전원 인가시 무조건 BLE advertizing가 아닌 버튼이 꾹 눌리면 페어링모드 (advertizing mode)로 진입하는 것으로 개선 (BLE advertizing은 배터리 소모 높음 → 배터리시간 개선, 전원 인가시 무조건 advertizing mode로 진입하는 것이 아닌 사용자 조작을 통해 사용자의 통제 범위 증가)
 - 더 비싼 배터리 충전 / 방전 보드로 idle 상태에서 발생하는 battery drain 양 최소화 혹은 배터리와 배터리 충전 / 방전 보드 사이에 스위치 추가하여 수동으로 키고 끌 수 있게 개선
 - 버튼이 눌린 시간 측정하여 버튼 꾹 누르면 영상촬영(각 휴대폰의 음량버튼 꾹 누름 설정) 기능 추가
